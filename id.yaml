@@ -1,5 +1,5 @@
 proxies:
-  - name: 14.lowh.net
+  - name: iflix 1
     server: 14.lowh.net
     port: 443
     type: vmess
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: 14.lowh.net
     udp: true
-  - name: hz2.cobadl.com
+  - name: iflix2
     server: hz2.cobadl.com
     port: 443
     type: vmess
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: hz2.cobadl.com
     udp: true
-  - name: Trojan WS 443 WS
+  - name: iflix3
     server: biznet1.1server.co
     port: 443
     type: trojan
@@ -43,4 +43,49 @@ proxies:
       path: /welcome
       headers:
         Host: biznet1.1server.co
+    udp: true
+  - name: ava game
+    server: ava.game.naver.com
+    port: 443
+    type: vmess
+    uuid: 563a9800-4094-11f0-b616-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.14-lowh.rimuru.BIZ.id
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: ava.game.naver.com.14-lowh.rimuru.BIZ.id
+    udp: true
+  - name: ava game 1
+    server: ava.game.naver.com
+    port: 443
+    type: vmess
+    uuid: 65f21390-4094-11f0-8f61-1577c1651679
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ava.game.naver.com.hz2.rimuru.BIZ.id
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: ava.game.naver.com.hz2.rimuru.BIZ.id
+    udp: true
+  - name: Trojan WS 443 WS
+    server: ava.game.naver.com
+    port: 443
+    type: trojan
+    password: 7501fd40-4094-11f0-b555-1577c1651679
+    skip-cert-verify: true
+    sni: ava.game.naver.com.biznet.rimuru.BIZ.id
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: ava.game.naver.com.biznet.rimuru.BIZ.id
     udp: true
