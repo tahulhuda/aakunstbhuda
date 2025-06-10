@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: 14.lowh.net
     udp: true
-	interface-name: usb0
+    interface-name: usb0
   - name: iflix2
     server: hz2.cobadl.com
     port: 443
@@ -32,7 +32,7 @@ proxies:
       headers:
         Host: hz2.cobadl.com
     udp: true
-	interface-name: usb0
+    interface-name: usb0
   - name: iflix3
     server: biznet1.1server.co
     port: 443
@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: biznet1.1server.co
     udp: true
-	interface-name: usb0
+    interface-name: usb0
   - name: ava game
     server: ava.game.naver.com
     port: 443
@@ -63,7 +63,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.14-lowh.rimuru.BIZ.id
     udp: true
-	interface-name: usb0
+    interface-name: usb0
   - name: ava game 1
     server: ava.game.naver.com
     port: 443
@@ -80,7 +80,7 @@ proxies:
       headers:
         Host: ava.game.naver.com.hz2.rimuru.BIZ.id
     udp: true
-	interface-name: usb0
+    interface-name: usb0
   - name: Trojan WS 443 WS
     server: ava.game.naver.com
     port: 443
@@ -94,4 +94,4 @@ proxies:
       headers:
         Host: ava.game.naver.com.biznet.rimuru.BIZ.id
     udp: true
-	interface-name: usb0
+    interface-name: usb0
