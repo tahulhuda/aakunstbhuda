@@ -89,3 +89,53 @@ proxies:
       headers:
         Host: ava.game.naver.com.biznet.rimuru.BIZ.id
     udp: true
+- name: HUDA I
+  server: adc.mjsvip.biz.id
+  port: 443
+  type: trojan
+  password: 69b68481-fc14-4eb4-b4be-4b08468aaa19
+  skip-cert-verify: true
+  sni: live-upload.instagram.com
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: adc.mjsvip.biz.id
+  udp: true
+- name: HUDA II
+  server: adc.mjsvip.biz.id
+  port: 443
+  type: trojan
+  password: 69b68481-fc14-4eb4-b4be-4b08468aaa19
+  skip-cert-verify: true
+  sni: graph.instagram.com
+  network: grpc
+  grpc-opts:
+    grpc-service-name: trojan
+  udp: true
+- name: HUDA III
+  server: ava.gamer.naver.com
+  port: 443
+  type: trojan
+  password: 69b68481-fc14-4eb4-b4be-4b08468aaa19
+  skip-cert-verify: true
+  sni: adc.mjsvip.biz.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: adc.mjsvip.biz.id
+  udp: true
+- name: HUDA IV
+  server: df.game.naver.com
+  port: 443
+  type: trojan
+  password: 6238bc42-737e-4b79-9787-001cad83b824
+  skip-cert-verify: true
+  sni: stb-idc1.mjstore.web.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: stb-idc1.mjstore.web.id
+  udp: true
