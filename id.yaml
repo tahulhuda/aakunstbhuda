@@ -106,7 +106,7 @@ proxies:
     server: stb-idc1.mjstore.web.id
     port: 443
     type: trojan
-    password: password: 6238bc42-737e-4b79-9787-001cad83b824
+    password: 6238bc42-737e-4b79-9787-001cad83b824
     skip-cert-verify: true
     sni: live.iflix.com
     network: ws
