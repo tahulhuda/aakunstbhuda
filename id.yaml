@@ -53,12 +53,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.14-lowh.rimuru.BIZ.id
+    servername: ava.game.naver.com.14-lowh.rimuru.biz.id
     network: ws
     ws-opts:
       path: /hello
       headers:
-        Host: ava.game.naver.com.14-lowh.rimuru.BIZ.id
+        Host: ava.game.naver.com.14-lowh.rimuru.biz.id
     udp: true
   - name: ava game 1
     server: ava.game.naver.com
@@ -69,12 +69,12 @@ proxies:
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: ava.game.naver.com.hz2.rimuru.BIZ.id
+    servername: ava.game.naver.com.hz2.rimuru.biz.id
     network: ws
     ws-opts:
       path: /hello
       headers:
-        Host: ava.game.naver.com.hz2.rimuru.BIZ.id
+        Host: ava.game.naver.com.hz2.rimuru.biz.id
     udp: true
   - name: Trojan WS 443 WS
     server: ava.game.naver.com
@@ -82,12 +82,12 @@ proxies:
     type: trojan
     password: 7501fd40-4094-11f0-b555-1577c1651679
     skip-cert-verify: true
-    sni: ava.game.naver.com.biznet.rimuru.BIZ.id
+    sni: ava.game.naver.com.biznet.rimuru.biz.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: ava.game.naver.com.biznet.rimuru.BIZ.id
+        Host: ava.game.naver.com.biznet.rimuru.biz.id
     udp: true
   - name: iflix 1 mjstore
     server: adc.mjsvip.biz.id
