@@ -8,12 +8,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: support.zoom.us.14-lowh.rimuru.biz.id
+  servername: support.zoom.us.wc.akuwibuu.web.id
   network: ws
   ws-opts:
-    path: /hello
+    path: /14-lowh.rimuru.biz.id/hello
     headers:
-      Host: support.zoom.us.14-lowh.rimuru.biz.id
+      Host: support.zoom.us.wc.akuwibuu.web.id
   udp: true
 - name: ID 2
   server: support.zoom.us
@@ -24,12 +24,12 @@ proxies:
   cipher: auto
   tls: true
   skip-cert-verify: true
-  servername: support.zoom.us.hz2.rimuru.biz.id
+  servername: support.zoom.us.wc.akuwibuu.web.id
   network: ws
   ws-opts:
-    path: /hello
+    path: /hz2.rimuru.biz.id/hello
     headers:
-      Host: support.zoom.us.hz2.rimuru.biz.id
+      Host: support.zoom.us.wc.akuwibuu.web.id
   udp: true
 - name: ID 3
   server: support.zoom.us
@@ -37,10 +37,10 @@ proxies:
   type: trojan
   password: 7501fd40-4094-11f0-b555-1577c1651679
   skip-cert-verify: true
-  sni: support.zoom.us.biznet.rimuru.biz.id
+  sni: support.zoom.us.wc.akuwibuu.web.id
   network: ws
   ws-opts:
-    path: /welcome
+    path: /biznet.rimuru.biz.id/welcome
     headers:
-      Host: support.zoom.us.biznet.rimuru.biz.id
+      Host: support.zoom.us.wc.akuwibuu.web.id
   udp: true
